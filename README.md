@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+🎬 React Movie Search App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A movie discovery application built with React.js and the OMDb API. Search for movies, explore movie details, and manage your favourite movies through a simple, interactive interface.
 
-## Available Scripts
+✨ Features
 
-In the project directory, you can run:
+* 🔍 Movie Search — Search for movies by title.
+* 🎞️ Movie Information — Explore additional information about selected movies.
+* ❤️ Favourites List — Add movies to your favourites.
+* 🗑️ Remove Favourites — Remove movies from your favourites list.
+* 🪟 Movie Details Modal — View movie details in a modal window.
+* 🔌 API Integration — Retrieve movie information from the OMDb API.
+* 🧩 Reusable Components — Organize the application into separate React components.
 
-### `npm start`
+🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* React.js
+* JavaScript
+* HTML5
+* CSS3
+* OMDb API
+* npm
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📸 Application Preview
 
-### `npm test`
+Screenshots of the application will be added here.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+⚙️ Getting Started
 
-### `npm run build`
+Follow these steps to run the project locally.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Prerequisites
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Install the following tools:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Node.js
+* npm (included with Node.js)
+* A free API key from the OMDb API website
 
-### `npm run eject`
+1. Clone the Repository
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+git clone YOUR_GITHUB_REPOSITORY_URL
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Replace YOUR_GITHUB_REPOSITORY_URL with your actual GitHub repository URL after uploading the project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Open the Project Folder
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+cd moviesearchapp
 
-## Learn More
+3. Install Dependencies
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm install
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Configure the API Key
 
-### Code Splitting
+Create a .env.local file in the project’s root directory.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Add the following line:
 
-### Analyzing the Bundle Size
+REACT_APP_OMDB_API_KEY=your_omdb_api_key_here
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Replace your_omdb_api_key_here with your own OMDb API key.
 
-### Making a Progressive Web App
+Important: Never commit your .env.local file or publish your API key in your repository.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+5. Start the Application
 
-### Advanced Configuration
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Open http://localhost:3000 in your browser.
 
-### Deployment
+📚 What I Learned
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Building reusable components with React.
+* Managing application state and passing props.
+* Handling user input and form submissions.
+* Fetching data from an external API.
+* Organizing a React project into separate components.
+* Managing a Git repository and preparing a project for GitHub.
 
-### `npm run build` fails to minify
+🚀 Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* Add movie search filters.
+* Improve the mobile user experience.
+* Save favourites between sessions.
+* Add more automated tests.
+* Deploy the application online.
+
+🙌 Acknowledgements
+
+* React — Frontend library.
+* OMDb API — Movie information API.
+
+⸻
+
+Developed as a React.js learning project. ❤️
